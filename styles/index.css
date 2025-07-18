@@ -68,14 +68,17 @@ nav .home-nav-ul{
 
 /* action page */
 .action-page{
-    
+    height: 328px;
+    width: 1140px;
     display: flex;
+    justify-content: center;
     justify-content: space-between;
-    margin: 116px 80px 116px 141px;}
+  
+    margin: 116px 159px 116px 141px;}
 
 .action-pic{
-    width: 403px;
-    height: 328px;
+    width: 480px;
+    height: 340px;
     border-radius: 48px;
 }
 
@@ -90,7 +93,7 @@ nav .home-nav-ul{
     font-size: 24px;
     font-weight: 600;
     color: #25243280;
-    /* margin-top: 20px; */
+    margin-top: 20px;
 }
 
 
@@ -99,9 +102,10 @@ nav .home-nav-ul{
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
     border: none;
-    width: 1110px;
+    width: 1050px;
     height: 308px;
     margin-left: 140px;
+    margin-right: 159px;
     margin-bottom:140px;
     padding: 50px 85px 50px 75px;
 }
@@ -138,3 +142,71 @@ nav .home-nav-ul{
     color: #00000080;
 }
 
+.margin-right-left{
+    margin-right: 159px;
+    margin-left: 141px;
+}
+
+.user-rating-box{
+    display: flex;
+    
+   gap: 20px;
+}
+.user-rating-title{
+    font-size: 42px;
+    font-weight: 800;
+    color: #000000;
+    text-align: center;
+   padding-bottom: 50px;
+}
+
+.user-comment-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    /* text-align: center; */
+}
+
+.comment{
+    font-size: 16px;
+    font-weight: 600;
+    color: #00000081;
+    padding-bottom: 20px;
+}
+
+.user-image-name{
+    display: flex;
+    gap: 20px;
+   
+}
+
+.user-name{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-comment{
+    height:240px ;
+    width: 350px;
+    border-radius: 14px;
+    border: solid #F2EDED;
+    background: rgba(255, 255, 255, 0.50);
+    padding: 20px;
+
+}
+
+.user-avatar{
+    /* shape-image-threshold: 100%; */
+    border-radius: 100%;
+}
+
+.user-date{
+    color: #75757596;
+    font-weight: 700;
+}
+
+.user{
+    font-weight: 800;
+    color: #757575;
+}
